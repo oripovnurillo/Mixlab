@@ -1,0 +1,470 @@
+@import url(../fonts/stylesheet.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto';
+}
+.container{
+    width: 100%;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__nav{
+    height: 94px;
+    display: flex;
+    align-items: center;
+
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+}
+.header__link{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    transition: linear 0.2s;
+}
+.header__link:hover{
+    color: rgb(199, 152, 22);
+}
+.aaa{
+    margin-right: 33px;
+}
+.header__button{
+    display: flex;
+}
+.header__btn{
+    color: rgba(111, 30, 170, 1);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.header__img{
+    animation: NUR14TOSTOBOY 1s linear infinite;
+    margin-right: 100px;
+}
+@keyframes NUR14TOSTOBOY {
+   0%{
+    transform:scale(1);
+   }
+   25%{
+    transform:scale(1.1);
+   }
+   50%{
+    transform:scale(1.2);
+   }
+   75%{
+    transform:scale(1.1);
+   }
+   100%{
+    transform:scale(1);
+   }
+   
+    
+}
+.button{
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(112, 30, 170);
+    text-decoration: none;
+    border-radius: 20px;
+    transition: linear 0.2s;
+}
+.button:hover{
+    background: white;
+    color: rgba(111, 30, 170, 1);
+    border: 1px solid rgba(111, 30, 170, 1);
+}
+.chap{
+    position: absolute;
+}
+.on{
+    position: absolute;
+    right: 0;
+}
+
+.center_1{
+    position: relative;
+}
+.center{
+    height: 650px;
+    background: rgba(254, 247, 229, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.center__title{
+    font-weight: 400;
+    font-size: 55px;
+    width: 565px;
+    text-align: center;
+}
+.center__text{
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 490px;
+    text-align: center;
+}
+.center__btn{
+    margin-top: 23px;
+    font-weight: 700;
+    font-size: 16px;
+    background: rgba(111, 30, 170, 1);
+    width: 155px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.center__btn:hover{
+    background: white;
+    color: rgba(111, 30, 170, 1);
+    border: 1px solid rgba(111, 30, 170, 1);
+}
+.center__span{
+    color: rgba(111, 30, 170, 1);
+}
+.pas{
+    margin-left: 600px;
+}
+.block__title{
+    width: 525px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px
+}
+.block__img{
+    margin-left: 103px;
+    margin-top: 27px;
+    margin-bottom: 45px;
+}
+.main__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.series__title{
+    color: rgba(111, 30, 170, 1);
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.series__text{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 27px;
+    width: 460px;
+    margin-top: 20px;
+}
+.series__item{
+    border-bottom: 1px solid rgba(247, 165, 0, 1);
+}
+.series__text-item{
+    margin-bottom: 50px;
+}
+.series__text_a{
+    font-weight: 400;
+    font-size: 11px;
+    width: 450px;
+}
+.title__1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 44px;
+    margin-bottom: 65px;
+}
+.achki{
+    display: flex;
+    justify-content: space-between;
+}
+.achki__item{
+    width: 300px;
+    text-align: center;
+}
+.item__title{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(111, 30, 170, 1);
+    margin-top: 31px;
+    margin-bottom: 11px;
+}
+.item__text{
+    font-weight: 400;
+    font-size: 16px;
+}
+.item__title{
+    padding-top: 30px;
+}
+.text__item{
+    font-size: 11px;
+}
+.item__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.btn{
+    text-decoration: none;
+    background: rgba(111, 30, 170, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.2s linear;
+    margin-bottom: 60px;
+}
+.btn:hover{
+    background: white;
+    color: rgba(111, 30, 170, 1);
+    border: 1px solid rgba(111, 30, 170, 1);
+    font-size: 18px;
+}
+.nurillo{
+    display: flex;
+    height: 645px;
+    align-items: center;
+}
+.nurillo__btn{
+    color: rgba(247, 165, 0, 1);
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nurillo__title{
+    font-weight: 400;
+    font-size: 44px;
+    margin-top: 10px;
+    margin-bottom: 44px;
+    width: 520px;
+}
+.nurillo__text{
+    width: 527px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.center__span_1{
+    position: relative;
+    margin-top: 66px;
+}
+.center__title_1{
+    margin-bottom: 24px;
+}
+.span__center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aasd{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: 100px;
+}
+.dota{
+    display: flex;
+    align-items: center;
+}
+.dota__1{
+    background: rgba(223, 245, 246, 1);
+    width: 1000px;
+    height: 355px;
+    margin-top: 50px;
+}
+.aa{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.a{
+    margin-top: 60px;
+    margin-right: 40px;
+}
+.dota__text{
+    font-weight: 400;
+    font-size: 16px;
+    width: 659px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.dota__time{
+    display: flex;
+    margin-top: 10px;
+}
+.time__text{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 16px;
+}
+.iccup__title{
+    font-weight: 400;
+    font-size: 44px;
+    text-align: center; 
+}
+.iccup__text{
+    font-weight: 500;
+    font-size: 13px;
+    width: 455px;
+    text-align: center;
+    margin-top: 30px;
+}
+.iccup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 76px;
+    margin-top: 220px;
+}
+.covid{
+    display: flex;
+    justify-content: center;
+}
+.aaaaaa{
+    float: right;
+
+}
+.asd{
+    float: left;
+}
+.covid__item{
+    width: 385px;
+    height: 485px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+}
+.item__button{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(247, 165, 0, 1);
+    text-decoration: none;
+}
+.daun{
+    margin-bottom: 35px;
+}
+.covid__title{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 16px;
+}
+.covid__text{
+    font-weight: 400;
+    font-size: 11px;
+    width: 288px;
+    line-height: 22px;
+    margin-bottom: 27px;
+    margin-top: 15px;
+}
+.covid__btn{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(111, 30, 170, 1);
+    text-decoration: none;
+}
+.rak{
+    margin-left: 35px;
+}
+.google{
+    margin-bottom: 50px;
+}
+.covid__rak{
+    text-decoration: none;
+    background: rgba(111, 30, 170, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.2s linear;
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 70px;
+}
+.covid__rak:hover{
+    background: white;
+    color: rgba(111, 30, 170, 1);
+    border: 1px solid rgba(111, 30, 170, 1);
+    font-size: 18px;
+}
+.voker{
+    height: 150px;
+    background: rgba(111, 30, 170, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.snip{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    height: 430px;
+    background: rgba(72, 21, 109, 1);
+}
+.katta__div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+.text__dota{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.kichik__btn{
+    color: rgba(194, 130, 240, 1);
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    padding-bottom: 100px;
+}
+.aasdasd{
+    margin-right: 30px;
+}
+.asdas{
+    margin-top: 20px;
+}
+.san{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.man{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
